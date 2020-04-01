@@ -111,7 +111,7 @@ ul {
 .section-stream .content > div, .section-grid > div {
 	background: rgba(255, 255, 255, 0.1);
 	padding: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-radius: 10px;
 }
 
@@ -121,6 +121,7 @@ ul {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 30px;
 	text-align: center;
+	margin-top: 950px;
 }
 
 .section-grid p {
@@ -136,15 +137,9 @@ ul {
 .footer {
 	border-top: var(--text-color) 1px solid;
 	padding: 30px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
-.footer ul {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	text-align: center;
-}
 
 /* Mobile */
 @media (max-width: 700px) {
